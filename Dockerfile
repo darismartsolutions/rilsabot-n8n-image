@@ -5,4 +5,3 @@ USER root
 COPY --from=ffmpeg /ffmpeg /usr/local/bin/ffmpeg
 COPY --from=ffmpeg /ffprobe /usr/local/bin/ffprobe
 ADD https://raw.githubusercontent.com/prawnpdf/prawn/master/data/fonts/DejaVuSans.ttf /usr/share/fonts/DejaVuSans.ttf
-USER node
